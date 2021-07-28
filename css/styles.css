@@ -1,12 +1,14 @@
 /* reset  */
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
 /* typography */
 .fontSize {
-  font-size: 20px; }
+  font-size: 22px;
+  line-height: 50px; }
 
 /* general */
 body {
@@ -16,19 +18,20 @@ body {
 
 /* header */
 header {
-  background-color: #789391; }
+  background-color: #361705; }
   header nav .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    height: 122px; }
     header nav .menu .menu__brand img {
-      width: 155px; }
+      width: 261px; }
     header nav .menu .menu__links a {
       padding: 10px;
       margin: 5px;
       text-decoration: none;
-      color: #e5c298;
+      color: #cf9f53;
       font-size: 20px;
       border-bottom: 5px solid transparent; }
       header nav .menu .menu__links a .menu__links--active {
@@ -38,7 +41,7 @@ header {
       transition: all .5s; }
     header nav .menu .menu__login__btn {
       transition: all .5s ease;
-      color: #e5c298;
+      color: #cf9f53;
       border: 3px solid white;
       text-transform: uppercase;
       text-align: center;
@@ -51,7 +54,7 @@ header {
       margin-right: 10px; }
     header nav .menu .menu__login__btn:hover {
       color: #001F3F;
-      background-color: #e5c298; }
+      background-color: #cf9f53; }
 
 /* footer */
 footer {
@@ -68,21 +71,24 @@ footer {
 .mainSection .mainTitle {
   display: inline-block;
   font-size: 100px;
-  background-color: #789391;
-  color: #e5c298;
+  background-color: #361705;
+  color: #cf9f53;
   margin-top: 50px;
   margin-left: 10px;
-  padding: 10px; }
+  padding: 10px;
+  font-family: 'Grand Hotel', cursive;
+  letter-spacing: 25px; }
 
 .mainSection .art {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: wheat;
+  background-color: #FFF0C9;
   margin: 30px;
   padding: 25px;
   align-items: center;
-  box-shadow: 2px 2px 5px 5px; }
+  border: 2px solid black;
+  border-radius: 18px; }
   .mainSection .art .mainVid {
     margin-left: 20px; }
   .mainSection .art .pic {
