@@ -33,9 +33,6 @@ header{
             width: 261px;
         }
 
-        .menu__links{
-            
-        }
         .menu__links a{
             padding: 10px;
             margin: 5px;
@@ -53,6 +50,7 @@ header{
         .menu__links a:hover{
             border-bottom: black 5px solid;
             transition: all .5s;
+            color: white;
         }
 
         .menu__login__btn{
@@ -93,14 +91,15 @@ footer{
 .mainSection{
     .mainTitle{
         display: inline-block;
-        font-size: 100px;
-        background-color: #361705;
+        font-size: 85px;
+        background-color: black;
         color: #cf9f53;
         margin-top: 50px;
         margin-left: 10px;
         padding: 10px;
-        font-family: 'Grand Hotel', cursive;
-        letter-spacing: 25px;
+        font-family: 'Lora', cursive;
+        border: 2px solid #61B12E;
+        border-radius: 16px 16px 16px 16px;
         
     }
     .art{
@@ -111,8 +110,6 @@ footer{
         margin: 30px;
         padding: 25px;
         align-items: center;
-        border: 2px solid black;
-        border-radius: 18px;
         .mainVid{
             margin-left: 20px;
         }

@@ -38,7 +38,8 @@ header {
         border-bottom-color: black 5px solid; }
     header nav .menu .menu__links a:hover {
       border-bottom: black 5px solid;
-      transition: all .5s; }
+      transition: all .5s;
+      color: white; }
     header nav .menu .menu__login__btn {
       transition: all .5s ease;
       color: #cf9f53;
@@ -70,14 +71,15 @@ footer {
 /* Home Page*/
 .mainSection .mainTitle {
   display: inline-block;
-  font-size: 100px;
-  background-color: #361705;
+  font-size: 85px;
+  background-color: black;
   color: #cf9f53;
   margin-top: 50px;
   margin-left: 10px;
   padding: 10px;
-  font-family: 'Grand Hotel', cursive;
-  letter-spacing: 25px; }
+  font-family: 'Lora', cursive;
+  border: 2px solid #61B12E;
+  border-radius: 16px 16px 16px 16px; }
 
 .mainSection .art {
   display: flex;
@@ -86,9 +88,7 @@ footer {
   background-color: #FFF0C9;
   margin: 30px;
   padding: 25px;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 18px; }
+  align-items: center; }
   .mainSection .art .mainVid {
     margin-left: 20px; }
   .mainSection .art .pic {
