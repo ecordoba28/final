@@ -1,4 +1,6 @@
 /* reset  */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -6,9 +8,29 @@
 /* typography */
 /* general */
 body {
-  height: 100vh; }
+  height: 100vh;
+  background-image: url("../img/main.jpg"); }
 
 /* header */
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .menu .menu__brand {
+    color: white; }
+  .menu .menu__links ul {
+    display: flex;
+    flex-direction: row; }
+    .menu .menu__links ul li {
+      list-style-type: none;
+      color: white;
+      margin: 10px; }
+      .menu .menu__links ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 10px; }
+
 /* footer */
 footer {
   background-color: black;
@@ -21,9 +43,19 @@ footer {
 
 /* sidebar */
 /* Home Page*/
+#mainPic {
+  max-width: 100%;
+  height: auto; }
+
 .picContainer {
   height: 70vh;
   overflow: hidden; }
+
+#mainText {
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: white; }
 
 /* About Page */
 /* Media Queries */
