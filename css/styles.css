@@ -21,5 +21,9 @@ footer {
 
 /* sidebar */
 /* Home Page*/
+.picContainer {
+  height: 70vh;
+  overflow: hidden; }
+
 /* About Page */
 /* Media Queries */
