@@ -8,8 +8,7 @@
 /* typography */
 /* general */
 body {
-  height: 100vh;
-  background-image: url("../img/main.jpg"); }
+  height: 100vh; }
 
 /* header */
 .menu {
@@ -48,13 +47,18 @@ footer {
   height: auto; }
 
 .picContainer {
-  height: 70vh;
-  overflow: hidden; }
+  height: 55vh;
+  overflow: hidden;
+  background-image: url("../img/main3.jpg");
+  background-position: 0px 56%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
 
 #mainText {
-  position: relative;
   font-family: 'Playfair Display', serif;
-  font-size: 60px;
+  font-size: 80px;
   color: white; }
 
 /* About Page */
