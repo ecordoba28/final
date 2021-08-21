@@ -4,59 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pequeña introduccion a nuestra cafetería">
+    <meta name="description" content="Comprá productos de Tempo Coffee-Shop por internet. Tenemos café de especialidad, cafeteras y más. Hacé tu pedido, pagalo online y recibilo donde quieras.">
     <meta name="keywords" content="cafe, coffeeshop, especialidad, colombia, brasil, espresso, cafeteria, gourmet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Nosotros</title>
+    <title>Inicio</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="menu">
-                    <div class="menu__brand">
-                    <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
-                </div>
-                <div class="menu__links">
-                    <a href="index.html" class="menu__links--active">Inicio</a>
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="productos.html">Productos</a>
-                    <a href="contacto.html">Contacto</a>
-                </div>
-                <div class="menu__login">
-                    <button class="menu__login__btn">Iniciar sesión</button>
-                </div>
+    <header style="background-color: black">
+        <nav class="menu">
+            <div class="menu__brand">
+                <h1>Tempo Coffee-Shop</h1>
             </div>
-            
+
+            <div class="menu__links">
+                <ul>
+                    <li> <a href="index.html">INICIO</a></li>
+                    <li> <a href="nosotros.html">NOSOTROS</a></li>
+                    <li> <a href="productos.html">PRODUCTOS</a></li>
+                    <li> <a href="contacto.html">CONTACTO</a></li>
+                    <li> <a href="sucursales.html">SUCURUSALES</a></li>
+                    
+                
+                </ul>
+            </div>    
+            <div class="menu__login">
+                <a class="btn btn-white">Iniciar sesión</a>
+            </div>
         </nav>
     </header>
-    <section class="mainSection">
-        <h1 class="mainTitle">Nuestra Historia</h1>
-            <div class="art">
-                <div class="container">
-                   <p class="fontSize">Con la llegada de las cafeterías de franquicia comenzó a cambiar la cultura del café. Como consumidores le dimos más importancia a la estética visual que al sabor en sí mismo.
-                    Tempo nació como respuesta a todo esto. Al arte latte, al café que esconde su sabor detrás de jarabes y crema, y a las marcas que le roban el protagonismo al producto.
-                    Comenzamos con una idea, y la idea se convirtió en un pequeño puesto en Montserrat, el epicentro de las cafeterías argentinas a principios del 1900. De a poco comenzamos a notar que no solamente los clientes volvían cada mañana, sino que también atraíamos personas habituadas a otro tipo de café. Esta calidez y familiaridad de nuestros primeros clientes, nos impulsó a seguir creciendo recordando siempre nuestras raíces.</p>
-                    <div class="center">
-                        <img src="img/cut.png" alt="" width="100px">     
-                    </div>
-                    <div class="banner">
-                        <img src="img/roast.jpg" alt="banner granos de cafe" class="banner__nosotros">
-                    </div>
-                    <div class="subtitle center">
-                        <h2>Nuestros Granos</h2>
-                    </div>
-                    <p class="fontSize">Ofrecemos una cuidadosa selección de excelentes granos de Café Colombiano y Brasileño y durante los últimos años logramos perfeccionar su tueste dando como resultado un grano robusto pero balanceado.</p>
-                    <div>
-                        <h2 class="subtitle center">El verdadero sabor</h2>
-                        <div class="art fontSize">
-                            <img src="img/shotCafe.png" alt="shot de café" width="200px">
-                            <p>Nuestra constante formación y el trato con nuestros productos nos enseñan día a día que para lograr los mejores resultados, no basta con los granos y recetas correctas. Es importante el cuidado de nuestras máquinas, la vajilla que utilizamos y el instinto del barista. Todo esto trabaja en armonía brindando un resultado incomparable.</p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-    </section>
+    
+    <article class="aboutMain">
+       <div class="aboutMain__text">
+           <h1 class="subTitle">Nuestra historia</h1>
+           <p>Con la llegada de las cafeterías de franquicia comenzó a cambiar la cultura del café. Como consumidores le dimos más importancia a la estética visual que al sabor en sí mismo.
+            Tempo nació como respuesta a todo esto. Al arte latte, al café que esconde su sabor detrás de jarabes y crema, y a las marcas que le roban el protagonismo al producto.
+            Comenzamos con una idea, y la idea se convirtió en un pequeño puesto en Montserrat, el epicentro de las cafeterías argentinas a principios del 1900. De a poco comenzamos a notar que no solamente los clientes volvían cada mañana, sino que también atraíamos personas habituadas a otro tipo de café. Esta calidez y familiaridad de nuestros primeros clientes, nos impulsó a seguir creciendo recordando siempre nuestras raíces.</p>
+       </div>
+       <div>
+           <img src="img/about01.jpg" alt="">
+       </div>
+    </article>
+    <div class="banner"></div>
+    <article class="aboutSecond">
+        <div class="aboutSecond__img">
+            <img src="img/bolsaCafe.png" alt="">
+        </div>        
+        <div class="aboutSecond__text">
+            <h2>Nuestros granos</h2>
+            <p>Ofrecemos una cuidadosa selección de excelentes granos de Café Colombiano y Brasileño y durante los últimos años logramos perfeccionar su tueste dando como resultado un grano robusto pero balanceado.</p>
+        </div>
+    </article>
+    <article class="aboutSecond">
+        <div class="aboutSecond__text">
+            <h2>El verdadero sabor</h2>
+            <p>Nuestra constante formación y el trato con nuestros productos nos enseñan día a día que para lograr los mejores resultados, no basta con los granos y recetas correctas. Es importante el cuidado de nuestras máquinas, la vajilla que utilizamos y el instinto del barista. Todo esto trabaja en armonía brindando un resultado incomparable.</p>
+        </div>
+        <div class="aboutSecond__img">
+            <img src="img/main.jpg" alt="">
+        </div>        
+        
+    </article>
+
+    
+    
+
+
+
     <footer>
         Tempo Coffee-Shop - Copyright 2021 
     </footer>

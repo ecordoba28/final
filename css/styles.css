@@ -98,7 +98,7 @@ footer {
 
 #mainText {
   font-family: 'Playfair Display', serif;
-  font-size: 80px;
+  font-size: 100px;
   color: white; }
 
 .mainContainer {
@@ -161,4 +161,52 @@ footer {
       color: #fff; }
 
 /* About Page */
+.title {
+  font-family: 'Playfair Display', serif; }
+
+.aboutMain {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 1;
+  margin-bottom: 10px; }
+  .aboutMain img {
+    width: 1000px; }
+  .aboutMain .aboutMain__text .subTitle {
+    font-size: 100px; }
+  .aboutMain .aboutMain__text p {
+    font-size: 20px;
+    line-height: 49px;
+    margin: 0px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 50px;
+    padding: 17px; }
+
+.banner {
+  height: 10vh;
+  overflow: hidden;
+  background-image: url("../img/roast.jpg");
+  background-position: 0px 56%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.aboutSecond {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 200px; }
+  .aboutSecond .aboutSecond__img img {
+    width: 700px; }
+  .aboutSecond .aboutSecond__text h2 {
+    font-size: 65px;
+    margin-bottom: 35px; }
+  .aboutSecond .aboutSecond__text p {
+    font-size: 20px;
+    line-height: 43px;
+    font-family: 'Josefin Sans', sans-serif; }
+
 /* Media Queries */
