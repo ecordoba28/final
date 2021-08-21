@@ -15,7 +15,11 @@ body {
 .menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  height: 70px;
+  padding-right: 30px; }
   .menu .menu__brand {
     color: white; }
   .menu .menu__links ul {
@@ -29,7 +33,42 @@ body {
         text-decoration: none;
         color: white;
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 10px; }
+        font-size: 12px;
+        padding: 10px; }
+      .menu .menu__links ul li a:hover {
+        color: #fbefdf; }
+  .menu .menu__login .btn,
+  .menu .menu__login input[type="submit"] {
+    cursor: pointer;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; }
+  .menu .menu__login .btn:hover,
+  .menu .menu__login input[type="submit"]:hover {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; }
+  .menu .menu__login .btn-white {
+    border: solid 2px #fff;
+    background: transparent;
+    color: #fff !important; }
+  .menu .menu__login .btn-white:hover {
+    border: solid 2px #fff;
+    background: #fff;
+    color: #1f1f1f !important; }
 
 /* footer */
 footer {
@@ -66,7 +105,8 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding: 30px; }
+  padding: 30px;
+  padding-top: 50px; }
   .mainContainer .mainContainer__imgs {
     display: flex;
     flex-direction: row;
