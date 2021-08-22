@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Comprá productos de Tempo Coffee-Shop por internet. Tenemos café de especialidad, cafeteras y más. Hacé tu pedido, pagalo online y recibilo donde quieras.">
     <meta name="keywords" content="cafe, coffeeshop, especialidad, colombia, brasil, espresso, cafeteria, gourmet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>Inicio</title>
 </head>
@@ -32,23 +33,54 @@
             </div>
         </nav>
     </header>
-    <div class="picContainer">
-        <p id="mainText">Simplemente café</p>
+    <div class="content">
+
+        <h1 class="logo">Contáctanos</h1><hr style="color: black;">
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <form action="">
+                    <p>
+                        <label>Nombre completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Message</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>More Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Baker Street</li>
+                    <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
+                    <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                <p>Company.com</p>
+            </div>
+        </div>
+
     </div>
 
-    <div class="mainContainer">
-        <div class="mainContainer__imgs">
-            <img src="img/square1.jpg" alt="">
-            <img src="img/square2.jpg" alt="">
-            <img src="img/square3.jpg" alt="">
-            <img src="img/square4.jpg" alt="">
-        </div>
-        <div class="mainContainer__text">
-            <h3>Café donde quieras, como quieras</h3>
-            <p>Suscríbete al newsletter para estar al tanto de todas las novedades</p>
-            <a class="btn btn-dark" href="nosotros.html">Conocé más</a>            
-        </div>
-    </div>
 
     <footer>
         Tempo Coffee-Shop - Copyright 2021 
