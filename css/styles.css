@@ -11,7 +11,13 @@ body {
   height: 100vh;
   font-family: 'Josefin Sans', sans-serif; }
 
+.mainContent {
+  width: 100%; }
+
 /* header */
+header {
+  width: 100%; }
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -19,7 +25,8 @@ body {
   align-items: center;
   margin-left: 30px;
   height: 70px;
-  padding-right: 30px; }
+  padding-right: 30px;
+  width: 100%; }
   .menu .menu__brand {
     color: white; }
   .menu .menu__links ul {
@@ -36,7 +43,7 @@ body {
         font-size: 12px;
         padding: 10px; }
       .menu .menu__links ul li a:hover {
-        color: #fbefdf; }
+        color: wheat; }
   .menu .menu__login .btn,
   .menu .menu__login input[type="submit"] {
     cursor: pointer;
@@ -240,7 +247,7 @@ ul {
   font-family: 'Playfair Display', serif; }
 
 .contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.637); }
 
 .contact-wrapper > * {
   padding: 1em; }
@@ -289,7 +296,8 @@ ul {
 
 /* CONTACT INFO */
 .contact-info {
-  background: #000; }
+  background: #000;
+  color: wheat; }
 
 .contact-info h4, .contact-info ul, .contact-info p {
   text-align: center;
@@ -307,3 +315,30 @@ h2 {
   .row-cols-md-2 > * {
     flex: 0 0 auto;
     width: 33%; } }
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    flex-wrap: wrap; }
+  .menu__links ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .menu__links ul li {
+      list-style-type: none;
+      color: white;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .menu__links ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 12px;
+        padding: 10px; }
+      .menu__links ul li a:hover {
+        color: #fbefdf; }
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; } }
